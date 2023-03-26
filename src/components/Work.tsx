@@ -9,7 +9,7 @@ const Work = () => {
         id="work"
       >
         <Card
-          video="https://www.youtube.com/watch?v=O14Dolz9sIc"
+          video="https://www.youtube.com/embed/O14Dolz9slc"
           img="seveneightsix.png"
           hasVideo={false}
           hasLiveDemo={false}

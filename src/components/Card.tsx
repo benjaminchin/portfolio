@@ -26,9 +26,14 @@ const Card = ({
   link,
 }: Props) => {
   return (
-    <div className="card w-96 bg-base-200 shadow-xl font-inter">
+    <div className="card max-w-sm bg-base-200 shadow-xl font-inter">
       <figure className="pt-8">
-        {hasVideo && <iframe src={video}></iframe>}
+        {hasVideo && (
+          <iframe
+            src={video}
+            title="seveneightsix"            
+          ></iframe>
+        )}
         {!hasVideo && (
           <img
             src={`/assets/${img}`}

@@ -4,7 +4,7 @@ import { ChevronDownIcon } from "@heroicons/react/24/outline";
 const Hero = () => {
   return (
     <>
-      <div className="hero min-h-screen bg-gradient">
+      <div className="hero min-h-screen bg-gradient font-sans">
         <div className="hero-content text-left">
           <div className="max-w-2xl">
             <h1 className="text-7xl font-bold text-outline mb-4">
