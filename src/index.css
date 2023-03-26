@@ -1,0 +1,82 @@
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+@import "@fontsource/inter/800.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+.text-gradient {
+    background: rgb(255,0,170);
+    background: linear-gradient(90deg, rgba(255,0,170,1) 0%, rgba(181,61,195,1) 40%, rgba(0,212,255,1) 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+.bg-gradient {
+  background: radial-gradient(circle farthest-side at top right, #E5E4DF 0%, #FF36A1 25%, #1A8AB7 93%);
+}
+
+  .text-5xl {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  .text-outline {
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 2px #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility; 
+  }
+
+  .text-outline-sm {
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 1px #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility; 
+  }
+
+  .gradient-blob {
+    width: 240px; height: 240px;
+    border-radius: 20rem;
+    background: linear-gradient(180deg, #EF516D 0%, rgba(239, 81, 109, 0) 100%), radial-gradient(94.51% 124.88% at 94.32% 94.43%, rgba(65, 244, 255, 0.78) 0%, rgba(131, 218, 255, 0.6552) 32.29%, rgba(99, 175, 240, 0.3978) 64.06%, rgba(43, 90, 211, 0) 100%), linear-gradient(313.04deg, #341D65 0.93%, #604AEA 125.68%);
+    background-blend-mode: normal,normal,normal,normal,normal,normal; filter: blur(67px);
+  }
+
+  .gradient-blob-2 {
+    width: 440px; 
+    height: 440px; 
+    border-radius: 20rem; 
+    background: radial-gradient(62.61% 62.61% at 95.23% 6.02%, #160E71 0%, rgba(19, 13, 92, 0.26) 54.71%, rgba(90, 35, 248, 0) 100%), linear-gradient(72.48deg, #EF516D 2.61%, rgba(106, 103, 227, 0) 56.18%), radial-gradient(45.23% 45.23% at 35.11% -11.02%, #7936AE 0%, rgba(121, 54, 174, 0) 100%), radial-gradient(94.51% 124.88% at 94.32% 94.43%, rgba(65, 244, 255, 0.78) 0%, rgba(131, 218, 255, 0.6552) 32.29%, rgba(99, 175, 240, 0.3978) 64.06%, rgba(43, 90, 211, 0) 100%), linear-gradient(313.04deg, #341D65 0.93%, #604AEA 125.68%); 
+    background-blend-mode: normal,normal,normal,normal,normal,normal; filter: blur(67px);
+  }
+
+  .separator {
+    width: 0;
+    height: 0;
+    border-right: 100vw solid transparent;
+    border-bottom: 13.9vw solid #e5e4df;
+    margin-top: -13.8vw;
+  }
+
+  .bg-gray-gradient {
+    background: linear-gradient(
+      153.47deg,
+      rgba(253, 20, 109, 0) -341.94%,
+      #fc12b6 95.11%
+    );
+  }
+
+  .bg-pink-gradient {
+    background: rgb(255,0,170);
+    background: linear-gradient(90deg, rgba(255,0,170,1) 0%, rgba(181,61,195,1) 40%, rgba(0,212,255,1) 100%);
+  }
