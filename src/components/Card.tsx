@@ -37,7 +37,7 @@ const Card = ({
         {!hasVideo && (
           <img
             src={`/assets/${img}`}
-            className="w-[300px] h-[150px] object-cover"
+            className="w-[300px] h-[150px] object-cover object-top"
             alt="img"
           />
         )}
